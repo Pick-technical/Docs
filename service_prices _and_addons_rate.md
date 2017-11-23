@@ -98,7 +98,7 @@ operations@pick.sa for more information.
 ## Retrieving Service Prices and Addons Rate
 
 This section describes how to retrieve service prices and rates on Pick through API.
-Please make sure you have an API-key to successfully create a merchant. If you haven't receive your API-key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully create a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 
