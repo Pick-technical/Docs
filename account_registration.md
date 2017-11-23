@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This document describes how to register an account on Pick. If you want to test our APIs please register on https://sandbox.pick.sa/ . If you are ready to integrate with our Pick App, you can register on https://api.pick.sa/. Please follow the instructions below. If you have questions, you can email us at support@pick.sa .
+This document describes how to register an account on Pick. If you want to test our APIs please register on https://sandbox.pick.sa/ . If you are ready to integrate with our Pick App, you can register on https://api.pick.sa/. <br>
+**Please follow the instructions below.** If you have questions, you can email us at support@pick.sa .
 
 
 ## Pick Sandbox Registration
