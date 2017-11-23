@@ -3,7 +3,7 @@
 ## Merchants Registration
 
 This document describes how to register merchants on Pick through API.
-If youre account is a marketplace you need to create merchants for your account.
+If youre account is a *marketplace* you need to create a merchant for each of your seller in your account.
 Please make sure you have an API-key to successfully create a merchant. If you still dont have an API-key for your account, you
 can email us at support@pick.sa.
 
