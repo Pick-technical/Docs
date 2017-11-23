@@ -6,7 +6,7 @@ This document explains on how to retrieve airway bill in your orders.
 ## Retrieving Airway bill
 
 This section describes on how to retrieve airway bill on Pick through API.
-Please make sure you have an API-key to successfully retrieve an airway bill. If you haven't receive your API-key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully retrieve an airway bill. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 
