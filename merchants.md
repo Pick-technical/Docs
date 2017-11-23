@@ -8,7 +8,7 @@ If youre account is a **marketplace** you need to create a merchant for each of 
 ## Creating Merchants
 
 This section describes how to register merchants on Pick through API.
-Please make sure you have an API-key to successfully create a merchant. If you haven't receive your API-key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully create a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 
@@ -97,7 +97,7 @@ Content-Type: application/json
 ## Retrieving Merchants
 
 This section describes how to retrieve merchants on Pick through API.
-Please make sure you have an API-key to successfully create a merchant. If you haven't receive your API-key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully create a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 #### Retrieve a merchant details
@@ -240,7 +240,7 @@ Content-Type: application/json
 ## Deleting Merchants
 
 This section describes how to delete a merchant on Pick through API.
-Please make sure you have an API-key to successfully delete a merchant. If you haven't receive your API-key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully delete a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 You can delete a merchant using this API Access Point.
