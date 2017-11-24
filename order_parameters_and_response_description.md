@@ -17,7 +17,7 @@ This document explains the order parameters and order description in the order r
   <tr>
     <td>payment_type</td>
     <td>How the parcel will be paid. For more information click <a href="">here</a>.</td>
-    <td><i>[String]</i> <b>CHOICES :</b> [ cod, pre-paid, only_sender_fees, only_receiver_fees ]</td>
+    <td><i>[String]</i><br><b>CHOICES :</b> [ cod, pre-paid, only_sender_fees, only_receiver_fees ]</td>
   </tr>
   <tr>
     <td>pickup_location</td>
@@ -42,7 +42,7 @@ This document explains the order parameters and order description in the order r
   <tr>
     <td>service_type</td>
     <td>The type of service for the order. The default service type is `on-demand`. Different fees will be applied depending on the service choosen.For more information click <a href="https://github.com/Pick-technical/Docs/blob/master/service_prices%20_and_addons_rate.md">here</a></td>
-    <td><i>[String</i> <b>CHOICES :</b> [ on-demand, economy, shipping ]</td>
+    <td><i>[String</i><br><b>CHOICES :</b> [ on-demand, economy, shipping ]</td>
   </tr>
     <tr>
     <td>dropoff_location <b>[OPTIONAL]</b></td>
