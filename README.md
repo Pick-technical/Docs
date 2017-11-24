@@ -6,17 +6,18 @@ Please use https://sandbox.pick.sa/ as a testing environment.<br>
 For more questions and inquiry about the Pick App, please reach us at support@pick.sa and info@pick.sa.
 
 ## Tutorials
+#### Account Registration and API Key
 To learn how to register to ***Pick App*** and get an API key, click <a href="https://github.com/Pick-technical/Docs/blob/master/account_registration.md">here</a>.
-<br><br>
-If your store is ***marketplace***, click <a href="https://github.com/Pick-technical/Docs/blob/master/merchants.md">here</a> to create your merchants.
-<br><br>
-To learn how to create an order request, click <a href="https://github.com/Pick-technical/Docs/blob/master/orders.md">here</a>.
-<br><br>
+#### Merchants for a marketplace account
+If your store is ***marketplace***, click <a href="https://github.com/Pick-technical/Docs/blob/master/merchants.md">here</a> to create, retrieve and delete your merchants.
+#### Orders
+To learn how to create,retrieve and cancel order request, click <a href="https://github.com/Pick-technical/Docs/blob/master/orders.md">here</a>.
+#### Service Prices and Addons Rate
 To learn and check your service prices and addons rate, click <a href="https://github.com/Pick-technical/Docs/blob/master/service_prices%20_and_addons_rate.md">here</a>.
-<br><br>
+#### Order's Airway bill
 If you want to check your order's airwaybill, click <a href="https://github.com/Pick-technical/Docs/blob/master/airway_bill.md">here</a>.
-<br><br>
-To learn more information on payment types, click <a href="https://github.com/Pick-technical/Docs/blob/master/payment_type.md">here</a>.
+#### Payment Types
+How do we get payments from buyers? Learn more information on payment types, click <a href="https://github.com/Pick-technical/Docs/blob/master/payment_type.md">here</a>.
 
 ### Delivery Process
 1. Submit a new order in Pick App.
