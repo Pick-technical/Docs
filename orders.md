@@ -30,6 +30,8 @@ Please make sure you have an API key to successfully create orders. If you haven
         <li><code>receiver_name</code> [String]</li>
         <li><code>receiver_phone</code> [String] </li>
         <li><code>service_type</code> [String] </li>
+        <li><code>price</code> [Number/Integer/Float] </li>
+        <li><code>delivery_notes</code> [String] OPTIONAL</li>
         <li><code>dropoff_location</code> [String] OPTIONAL</li>
         <li><code>dropoff_time</code> [String] OPTIONAL</li>
       </ul>
@@ -97,6 +99,8 @@ Payload:
     "receiver_name": "John Doe",
     "receiver_phone": "0987654321",
     "service_type": "on-demand",
+    "price": "1.00",
+    "delivery_notes: "This is a test order",
     "dropoff_location": "24.7,46.6",
     "dropoff_time": "2018-10-05 12:50 AM"
   }
@@ -125,8 +129,8 @@ Content-Type: application/json
   "cod_fees": 5,
   "status": "Canceled",
   "status_code": 11,
-  "delivery_notes": null,
-  "price": "0.00",
+  "price": "1.00",
+  "delivery_notes: "This is a test order",
   "addons": {
     "less_fees": 0,
     "packaging": 0,
@@ -178,6 +182,8 @@ Please make sure you have an API key to successfully create orders. If you haven
         <li><code>receiver_name</code> [String]</li>
         <li><code>receiver_phone</code> [String] </li>
         <li><code>service_type</code> [String] </li>
+        <li><code>price</code> [Number/Integer/Float] </li>
+        <li><code>delivery_notes</code> [String] OPTIONAL</li>
         <li><code>dropoff_location</code> [String] OPTIONAL</li>
         <li><code>dropoff_time</code> [String] OPTIONAL</li>
       </ul>
@@ -245,6 +251,8 @@ Payload:
     "receiver_name": "John Doe",
     "receiver_phone": "0987654321",
     "service_type": "on-demand",
+    "price": "1.00",
+    "delivery_notes: "This is a test order",
     "dropoff_location": "24.7,46.6",
     "dropoff_time": "2018-10-05 12:50 AM"
   }
@@ -273,8 +281,8 @@ Content-Type: application/json
   "cod_fees": 5,
   "status": "Canceled",
   "status_code": 11,
-  "delivery_notes": null,
-  "price": "0.00",
+  "price": "1.00",
+  "delivery_notes: "This is a test order",
   "addons": {
     "less_fees": 0,
     "packaging": 0,
