@@ -22,11 +22,11 @@ This document explains the order parameters and order description in the order r
   <tr>
     <td>pickup_location</td>
     <td>The location of your store where we will pickup the parcel.</td>
-    <td><i>[String]</i> This should be a coordinate. For example: "24.6, 46.7"</td>
+    <td><i>[String]</i> This should be a coordinate (lng, lat). For example: "24.6, 46.7"</td>
   </tr>
   <tr>
     <td>pickup_time</td>
-    <td>What time the delivery man will pickup the parcel to your store.</td>
+    <td>What time the delivery man will pickup the parcel to your store.This should be in UTC +3:00 and the value should be a date in the FUTURE.</td>
     <td><i>[String]</i> Format should be: `YYYY-MM-DD hh:mm [AM|PM]`</td>
   </tr>
   <tr>
@@ -47,11 +47,11 @@ This document explains the order parameters and order description in the order r
     <tr>
     <td>dropoff_location <b>[OPTIONAL]</b></td>
     <td>The location of the buyer where the delivery man will deliver the package.</td>
-      <td><i>[String]</i> This should be a coordinate. For example: "24.6, 46.7"</td>
+      <td><i>[String]</i> This should be a coordinate(lng, lat). For example: "24.6, 46.7"</td>
   </tr>
   <tr>
     <td>dropoff_time <b>[OPTIONAL]</b></td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
+    <td>The time the delivery man should deliver the package to the buyer. This should be in UTC +3:00 and the value should be a date in the FUTURE after the pickup time date.</td>
     <td><i>[String]</i> Format should be: `YYYY-MM-DD hh:mm [AM|PM]`</td>
   </tr>
   <tr>
@@ -159,19 +159,19 @@ This document explains the order parameters and order description in the order r
   </tr>
   <tr>
     <td>width</td>
-    <td>The width of the parcel.</td>
+    <td>The width of the parcel. UOM is centimeter.</td>
   </tr>
   <tr>
     <td>length</td>
-    <td>The height of the parcel.</td>
+    <td>The height of the parcel. UOM is centimeter.</td>
   </tr>
   <tr>
     <td>weight</td>
-    <td>The weight of the parcel.</td>
+    <td>The weight of the parcel. UOM is kilogram.</td>
   </tr>
   <tr>
     <td>height</td>
-    <td>The height of the parcel.</td>
+    <td>The height of the parcel. UOM is centimeter.</td>
   </tr>
   <tr>
     <td>tracking_no</td>
