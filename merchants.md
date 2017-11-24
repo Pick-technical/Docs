@@ -97,7 +97,7 @@ Content-Type: application/json
 ## Retrieving Merchants
 
 This section describes how to retrieve merchants on Pick through API.
-Please make sure you have an API key to successfully create a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
+Please make sure you have an API key to successfully retrieve a merchant. If you haven't receive your API key for your account through email, you can email us at support@pick.sa.
 
 ### API Access Points
 #### Retrieve a merchant details
