@@ -1,4 +1,4 @@
-# Payment Type
+# Payment Types
 
 This document is to explain Payment Types in creating an order.
 <br><br>
