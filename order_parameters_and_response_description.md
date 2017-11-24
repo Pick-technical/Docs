@@ -16,7 +16,7 @@ This document explains the order parameters and order description in the order r
   </tr>
   <tr>
     <td>payment_type</td>
-    <td>How the parcel will be paid. For more information click <a href="">here</a>.</td>
+    <td>How the parcel will be paid. For more information click <a href="https://github.com/Pick-technical/Docs/blob/master/payment_type.md">here</a>.</td>
     <td><i>[String]</i><br><b>CHOICES :</b> [ cod, pre-paid, only_sender_fees, only_receiver_fees ]</td>
   </tr>
   <tr>
@@ -135,11 +135,11 @@ This document explains the order parameters and order description in the order r
   </tr>
   <tr>
     <td>status</td>
-    <td>The status of the delivery.For more information click <a href="">here</a></td>
+    <td>The status of the delivery.For more information click <a href="https://github.com/Pick-technical/Docs/blob/master/order_status_and_status_codes.md">here</a></td>
   </tr>
   <tr>
     <td>status_code</td>
-    <td>The status code of the delivery.For more information click <a href="">here</a></td>
+    <td>The status code of the delivery.For more information click <a href="https://github.com/Pick-technical/Docs/blob/master/order_status_and_status_codes.md">here</a></td>
   </tr>
   <tr>
     <td>packaging</td>
