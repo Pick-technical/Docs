@@ -16,7 +16,7 @@ This document explains the order parameters and order description in the order r
   </tr>
   <tr>
     <td>payment_type</td>
-    <td>The type of payment for the buyer.</td>
+    <td>How the parcel will be paid. For more information click <a href="">here</a>.</td>
     <td></td>
   </tr>
   <tr>
@@ -41,219 +41,160 @@ This document explains the order parameters and order description in the order r
   </tr>
   <tr>
     <td>service_type</td>
-    <td>The type of service for the order. Different fees will be applied depending on the service choosen.</td>
+    <td>The type of service for the order. Different fees will be applied depending on the service choosen.For more information click <a href="">here</a></td>
     <td></td>
   </tr>
     <tr>
-    <td>dropoff_location</td>
+    <td>dropoff_location <b>[OPTIONAL]</b></td>
     <td>The location of the buyer where the delivery man will deliver the package.</td>
     <td></td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
+    <td>dropoff_time <b>[OPTIONAL]</b></td>
     <td>The time the delivery man should deliver the package to the buyer.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>price</td>
+    <td>The price of the parcel.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>delivery_notes <b>[OPTIONAL]</b></td>
+    <td>The notes of the user for the delivery.</td>
     <td></td>
   </tr>
   </table>
   
 ## Order Response
 
-  <table>
+<table>
   <tr>
     <td><strong>Response Name</strong></td>
     <td><strong>Description</strong></td>
-    <td><strong>Value</strong></td>
   </tr>
   <tr>
     <td>id</td>
     <td>The id of the order. {order-id}</td>
-    <td></td>
   </tr>
   <tr>
     <td>created_at</td>
     <td>The time the order is created.</td>
-    <td></td>
   </tr>
   <tr>
     <td>owner</td>
     <td>The email of the owner.</td>
-    <td></td>
   </tr>
   <tr>
     <td>items</td>
     <td>The type of parcel to be delivered.</td>
-    <td></td>
   </tr>
   <tr>
     <td>payment_type</td>
-    <td>The type of payment for the buyer.</td>
-    <td></td>
+    <td>How the parcel will be paid.</td>
   </tr>
   <tr>
     <td>pickup_location</td>
     <td>The location of your store where we will pickup the parcel.</td>
-    <td></td>
   </tr>
   <tr>
     <td>pickup_time</td>
     <td>What time the delivery man will pickup the parcel to your store.</td>
-    <td></td>
   </tr>
   <tr>
     <td>receiver_name</td>
     <td>The name of the buyer.</td>
-    <td></td>
   </tr>
   <tr>
     <td>receiver_phone</td>
     <td>The phone number of the buyer.</td>
-    <td></td>
   </tr>
   <tr>
     <td>service_type</td>
     <td>The type of service for the order. Different fees will be applied depending on the service choosen.</td>
-    <td></td>
   </tr>
     <tr>
     <td>dropoff_location</td>
     <td>The location of the buyer where the delivery man will deliver the package.</td>
-    <td></td>
   </tr>
   <tr>
     <td>dropoff_time</td>
     <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>price</td>
+    <td>The price of the parcel.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>delivery_notes</td>
+    <td>The notes of the user for the delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>cod_fees</td>
+    <td>The fee if the delivery is Cash On Delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>status</td>
+    <td>The status of the delivery.For more information click <a href="">here</a></td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>status_code</td>
+    <td>The status code of the delivery.For more information click <a href="">here</a></td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>packaging</td>
+    <td>An addons fee for the packaging of the delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>container</td>
+    <td>An addons fee for the container of the delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>insurance</td>
+    <td>An addons fee for the insurance of the delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>service_cost</td>
+    <td>The service fee for the delivery depending on the service type you choose.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>width</td>
+    <td>The width of the parcel.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>length</td>
+    <td>The height of the parcel.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>weight</td>
+    <td>The weight of the parcel.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>height</td>
+    <td>The height of the parcel.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>tracking_no</td>
+    <td>The tracking number of the delivery.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>phone</td>
+    <td>The contact number of the seller.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>full_name</td>
+    <td>The full name of the seller.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>store_name</td>
+    <td>The name of your store.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
+    <td>pickup_address</td>
+    <td>The address of your store.</td>
   </tr>
   <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>dropoff_time</td>
-    <td>The time the delivery man should deliver the package to the buyer.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td valign="top"><strong>Response</strong></td>
-    <td>
-      <ul>
-
-
-
-
-        <li><code>cod_fees</code> [Number/Integer]</li>
-        <li><code>status</code> [Number/Integer]</li>
-        <li><code>status_code</code> [Number/Integer]</li>
-        <li><code>delivery_notes</code> [Number/Integer]</li>
-        <li><code>price</code> [Number/Integer]</li>
-        <li><code>less_fees</code> [Number/Integer]</li>
-        <li><code>packaging</code> [Number/Integer]</li>
-        <li><code>container</code> [Number/Integer]</li>
-        <li><code>insurance</code> [Number/Integer]</li>
-        <li><code>additional_services</code> [Number/Integer]</li>
-        <li><code>service_cost</code> [Number/Integer]</li>
-        <li><code>width</code> [Number/Integer]</li>
-        <li><code>length</code> [Number/Integer]</li>
-        <li><code>weight</code> [Number/Integer]</li>
-        <li><code>height</code> [Number/Integer]</li>
-        <li><code>tracking_no</code> [Number/Integer]</li>
-        <li><code>phone</code> [Number/Integer]</li>
-        <li><code>full_name</code> [Number/Integer]</li>
-        <li><code>store_name</code> [Number/Integer]</li>
-        <li><code>pickup_address</code> [Number/Integer]</li>
-        <li><code>dropoff_address</code> [Number/Integer]</li>      
-      </ul>
-    </td>
+    <td>dropoff_address</td>
+    <td>The address of the buyer.</td>
   </tr>
 </table>
