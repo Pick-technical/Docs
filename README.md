@@ -1,6 +1,6 @@
-# docs
+# Pick Application Documentation
 
-***Pick Delivery Docs***
+***Official Pick API Documentation***
 
 Please use https://sandbox.pick.sa/ as a testing environment.<br>
 For more questions and inquiry about the Pick App, please reach us at support@pick.sa and info@pick.sa.
