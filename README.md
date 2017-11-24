@@ -26,6 +26,6 @@ To learn more information on payment types, click <a href="https://github.com/Pi
 ### Webhooks
 We can update you via webhooks.
 We can send your order details whenever it changes its status so you can track the order. For
-more information about order status and status codes, click <a href="">here</a>.
+more information about order status and status codes, click <a href="https://github.com/Pick-technical/Docs/blob/master/order_status_and_status_codes.md">here</a>.
 <br><br>
 To setup webhooks in your account, please email us at support@pick.sa.
