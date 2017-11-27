@@ -1,6 +1,6 @@
 # Airway bill
 For testing purposes, please use `https://sandbox.pick.sa/` to retrieve the airway bill.<br>
-For example: `https://sandbox.pick.sa/orders/{id}/airway_bill/`
+For example: `https://sandbox.pick.sa/orders/{order-id}/airway_bill/`
 <br><br>
 This document explains on how to retrieve airway bill in your orders.
 ## Retrieving Airway bill
