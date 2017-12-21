@@ -1,6 +1,6 @@
 # Order Status and Status Codes
 
-This document contains the list of status and status codes of the Order.
+This document contains the sample payload that will be sending you via webhooks and the list of status and status codes of the Order.
 
 ### Sample Payload:
 
