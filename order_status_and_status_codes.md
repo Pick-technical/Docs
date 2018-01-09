@@ -4,36 +4,62 @@ This document contains the sample payload that will be sending you via webhooks 
 
 ### Sample Payload:
 
-```
-{"action":"statusUpdate","data":{"id":1234,
-"created_at":"2017-01-01T00:00:00Z",
-"owner":"test@test.com",
-"service_type":"shipping",
-"pickup_location":"24.7,46.7",
-"dropoff_location":"19.123,37.81",
-"receiver_name":"test​ ​ name",
-"receiver_phone":"507548762",
-"pickup_time":"2018-01-01T00:00:00",
-"dropoff_time":"2019-01-01T00:00:00",
-"items":"other",
-"payment_type":"COD",
-"cod_fees":5,
-"status":"Delivered",
-"status_code":​ ​ 10,
-"delivery_notes":null,
-"price":"1.00",
-"addons":{"packaging":0,"less_fees":4,"container":0,"insurance":0,"ad
-ditional_services":0},
-"service_cost":29.0,
-"dimensions":{"width":0,"length":0,"weight":0,"height":0},"tracking_no":"123456",
-"sender":{"phone":"1234567","full_name":"test
-name","store_name":"Test​ ​ store"},
-"pickup_address":"Test​ ​ address",
-"dropoff_address":"Buyer​ ​ Test​ ​ address",
-"merchant":{"id":1,"first_name":"test","last_name":"name","store_name":"Test​ ​ store",
-"location":"24.7,​ ​ 46.7","url":"https://test.test",
-"phone":"123456789","owner":"test@test.com","date_created":"2017-01-0
-1T00:00:00.00Z"}}}
+```json
+{
+  "action": "statusUpdate",
+  "data": {
+    "id": 1234,
+    "created_at":"2017-01-01T00:00:00Z",
+    "owner":"test@test.com",
+    "service_type":"shipping",
+    "pickup_location":"24.7,46.7",
+    "dropoff_location":"19.123,37.81",
+    "receiver_name":"test​ ​ name",
+    "receiver_phone":"507548762",
+    "pickup_time":"2018-01-01T00:00:00",
+    "dropoff_time":"2019-01-01T00:00:00",
+    "items":"other",
+    "payment_type":"COD",
+    "cod_fees":5,
+    "status":"Delivered",
+    "status_code":​ ​ 10,
+    "delivery_notes":null,
+    "price":"1.00",
+    "addons":{
+      "packaging":0,
+      "less_fees":4,
+      "container":0,
+      "insurance":0,
+      "additional_services":0
+    },
+    "service_cost":29.0,
+    "dimensions":{
+      "width":0,
+      "length":0,
+      "weight":0,
+      "height":0
+    },
+    "tracking_no":"123456",
+    "sender":{
+      "phone":"1234567",
+      "full_name":"testname",
+      "store_name":"Test​ ​ store"
+    },
+    "pickup_address":"Test​ ​ address",
+    "dropoff_address":"Buyer​ ​ Test​ ​ address",
+    "merchant":{
+      "id":1,
+      "first_name":"test",
+      "last_name":"name",
+      "store_name":"Test​ ​ store",
+      "location":"24.7,​ ​ 46.7",
+      "url":"https://test.test",
+      "phone":"123456789",
+      "owner":"test@test.com",
+      "date_created":"2017-01-01T00:00:00.00Z"
+    }
+  }
+}
 ```
 
 <table>
