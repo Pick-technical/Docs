@@ -102,7 +102,7 @@ Payload:
     "receiver_phone": "0987654321",
     "service_type": "on-demand",
     "price": "1.00",
-    "delivery_notes: "This is a test order",
+    "delivery_notes": "This is a test order",
     "dropoff_location": "24.7,46.6",
     "dropoff_time": "2018-10-05 12:50 AM"
   }
