@@ -147,6 +147,7 @@ Content-Type: application/json
     "weight": 0,
     "height": 0
   },
+  "sms_link": "https://sandbox.pick.sa/order_confirm/319/30fd406d2a3bcf40",
   "tracking_no": "428679",
   "sender": {
     "phone": "123456789",
@@ -299,6 +300,7 @@ Content-Type: application/json
     "weight": 0,
     "height": 0
   },
+  "sms_link": "https://sandbox.pick.sa/order_confirm/319/30fd406d2a3bcf40",
   "tracking_no": "428679",
   "sender": {
     "phone": "123456789",
@@ -420,6 +422,7 @@ Content-Type: application/json
       "weight": 0,
       "height": 0
     },
+    "sms_link": "https://sandbox.pick.sa/order_confirm/319/30fd406d2a3bcf40",
     "tracking_no": "245333",
     "sender": {
       "phone": "0987654321",
@@ -578,6 +581,7 @@ Content-Type: application/json
       "weight": 0,
       "height": 0
     },
+    "sms_link": "https://sandbox.pick.sa/order_confirm/319/30fd406d2a3bcf40",
     "tracking_no": "428679",
     "sender": {
       "phone": "123456789",
